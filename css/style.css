@@ -1,0 +1,54 @@
+/*@font-face{
+    font-family:'Courgette';
+    src:(Courgette-Regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}*/
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+body{
+    margin:auto;
+    width: 980px;
+    line-height:1.5em;
+}
+h1,
+h2,
+h3{
+    color:#003884;
+    font-family: Courgette;
+}
+.citation{
+    background-color:#d7e1ef;
+}
+.sceau{
+    
+}
+.ny{
+    
+}
+.drapeau{
+    
+}
+.statue{
+    
+}
+.pont{
+    
+}
+.taxi{
+    
+}
+
+blockquote p::before{
+    content:"";
+}
+blockquote p::after{
+    content:"";
+}
