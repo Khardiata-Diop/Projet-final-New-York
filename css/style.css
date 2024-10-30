@@ -1,54 +1,121 @@
-/*@font-face{
+@font-face{
     font-family:'Courgette';
-    src:(Courgette-Regular.ttf) format('truetype');
+    src:url(instructions/Courgette-Regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
-}*/
-/*// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 900
+}
 
-.source-sans-3-<uniquifier> {
+
+.source-sans-3-SemiBold600Italic {
   font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+ /* font-optical-sizing: auto;*/
+  font-weight: 600;
   font-style: normal;
-} */
+} 
 body{
     margin:auto;
     width: 980px;
     line-height:1.5em;
+    font-family:source-sans-3-SemiBold600Italic;
 }
-h1,
-h2,
+menu{
+    font-size:1.1rem;
+}
+article{
+    text-align:justify;
+}
+footer{
+    margin:auto;
+    text-align:center;
+}
+header{
+    margin:auto;
+    text-align:center;
+}
 h3{
+    text-align:center;
     color:#003884;
-    font-family: Courgette;
+    font-family:Courgette;
+    font-size:1.389rem;
 }
-.citation{
+h1{
+    font-size:2.2rem;
+    text-align:center;
+    color:#003884;
+    font-family:Courgette;
+}
+h2{
+     text-align:center;
+    color:#4f89b9;
+    font-family:Courgette;
+    font-size:1.94rem;
+}
+
+p{
+    color:#444;
+}
+ul li{
+    color : #444;
+}
+
+ol li{
+    color:#003884;
+    font-family:Courgette;
+    font-weight:bold;
+    text-decoration:none;
+}
+i{
+    font-size:1.667rem;
+    color:#003884;
+}
+strong{
+    color:#003884;
+}
+em{
+    color:#003884;
+}
+hr{
+    color:#003884;
+}
+blockquote{
+    text-align:center;
     background-color:#d7e1ef;
+    color:#003884;
+    font-family:Courgette;
 }
-.sceau{
-    
+blockquote p{
+    color:#003884;
+    font-weight:bold;
+    font-size:1.389rem;
 }
-.ny{
-    
+.copyright{
+    font-size:0.778rem;
 }
+.clear{
+    clear:none;
+}
+
+
 .drapeau{
-    
+    float:right;
+    margin-left:1em;
 }
 .statue{
-    
+    float:left;
+    margin-right:1em;
 }
 .pont{
-    
+    float:right;
+    margin-left:1em;
 }
 .taxi{
-    
+    float:left;
+    margin-right:1em;
 }
 
 blockquote p::before{
-    content:"";
+    content:" ";
 }
 blockquote p::after{
-    content:"";
+    content:" ";
 }
